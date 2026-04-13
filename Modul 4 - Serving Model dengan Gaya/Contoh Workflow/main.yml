@@ -9,7 +9,8 @@ on:
       - main
 
 env:
-  CSV_URL: "MLproject/train_pca.csv"
+  # Alamat lengkap ke file dataset Anda
+  CSV_URL: "Modul 4 - Serving Model dengan Gaya/Cinta Segitiga MLflow/MLproject/train_pca.csv"
   TARGET_VAR: "Credit_Score"
 
 jobs:
